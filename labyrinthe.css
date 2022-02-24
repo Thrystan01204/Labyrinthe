@@ -8,17 +8,19 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-
     display: grid;
-    background-color: black;
+    background-color: white;
     height: 100vmin;
     width: 100vmin;
 }
 
 .cell {
-    margin: 4%;
-    border-radius: 15% 15% 15% 15%;
+    margin: 0;
     background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .cell:hover {
