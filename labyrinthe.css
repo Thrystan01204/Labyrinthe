@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.maze {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+    display: grid;
+    background-color: black;
+    height: 100vmin;
+    width: 100vmin;
+}
+
+.cell {
+    margin: 4%;
+    border-radius: 15% 15% 15% 15%;
+    background-color: white;
+}
+
+.cell:hover {
+    background-color: red;
+}
